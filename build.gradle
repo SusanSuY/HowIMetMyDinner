@@ -15,6 +15,7 @@ buildscript {
 allprojects {
     repositories {
         jcenter()
+        // add esri ArcGIS maven repo
         maven {
             url 'https://esri.bintray.com/arcgis'
         }
