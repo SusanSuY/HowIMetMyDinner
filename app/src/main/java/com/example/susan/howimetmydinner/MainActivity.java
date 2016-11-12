@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     //ArcGISTiledMapServiceLayer mBaseMap;
     EditText mSearchEditText;
     LocationDisplayManager lDisplayManager;
+    final static double SEARCH_RADIUS = 5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {// creates main space
@@ -126,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
 
-            @Override
+         /*   @Override
             public void onSingleTap(float x, float y) {
 
                 callout.hide();
@@ -143,7 +144,7 @@ public class MainActivity extends AppCompatActivity {
                     callout.show(location, content);
                 }
 
-            }
+            }*/
         });
 
     }
