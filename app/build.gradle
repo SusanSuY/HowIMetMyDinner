@@ -31,4 +31,5 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.esri.arcgis.android:arcgis-android:10.2.8-1'   //install ArcGIS
+    compile 'com.yelp.clientlib:yelp-android:2.0.0'
 }
